@@ -13,6 +13,7 @@ add_action('wp_head', 'updateBG');
 	
 function updateBG(){
 	
+	
 	global $post;
 
 	$post_id = $post->ID;
